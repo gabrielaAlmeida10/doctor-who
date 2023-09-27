@@ -1,0 +1,29 @@
+body {
+  background-image: url(./assets/time_vortex.jpg); 
+  background-size: cover;
+}
+
+div.menu {
+  background-color: #202aaf;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.menu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.menu a:hover {
+  background-color: #1362c9;
+}
+
+.content{
+  background-color:rgb(255,255,255, 0.8); /*212 232 245*/
+  text-align: center;
+  padding: 25px;
+  margin: 70px;
+}

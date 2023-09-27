@@ -1,0 +1,28 @@
+body{
+    background-image: url(./assets/boot_bg.jpg);
+}
+
+.content{
+    background-color:rgb(255,255,255, 0.9); /*212 232 245*/
+    text-align: center;
+    padding: 25px;
+    margin: 70px;
+}
+
+.doctor{
+    display: flex;
+    align-items: center;
+}
+
+.doctor img{
+    margin: 0.3125rem 1.25rem 1.25rem 0;
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.doctor span{
+    text-align: center;
+}
+
+
