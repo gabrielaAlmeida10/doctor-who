@@ -23,7 +23,7 @@ div.menu a:hover {
 
 .content{
   background-color:rgb(255,255,255, 0.8); /*212 232 245*/
-  text-align: center;
+  /* text-align: center; */
   padding: 25px;
   margin: 70px;
 }

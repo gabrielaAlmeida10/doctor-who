@@ -13,8 +13,30 @@
   </head>
   <body>
     <article class="content">
+      <h1 class="title">The Doctor</h1>
+      <div>
+        <p>
+          "<b>The Doctor</b>", a title embodying their promise to the universe,
+          was the main alias used by a mysterious time traveller of both space
+          and time, seemingly a renegade Time Lord from Gallifrey. The Doctor
+          adventured with numerous companions in an obsolete and "borrowed" Type
+          40 TARDIS(Time and Relative Dimensions in Space). They were "the
+          universe's greatest defender", having saved the cosmos thousands of
+          times across a long life and becoming a legend throughout the
+          universe, and a complicated space-time event of unparalleled
+          complexity.
+        </p>
+        <p>
+          The Doctor is a largely believer in non-violent conflict resolution,
+          trying always to resolve the problems in a pacific way. But, when
+          absolutely necessary, they were a great warrior. Because of that, some
+          civilisations in the universe, translate the word doctor as warrios,
+          whilst other saw the Doctor as a compassionate benefactor, worthy of
+          thei admitation and compassion.
+        </p>
+      </div>
       <div class="tab">
-        <button class="tablinks" onclick="openDoctor(event, '9')">
+        <button id="default" class="tablinks" onclick="openDoctor(event, '9')">
           9th Doctor
         </button>
         <button class="tablinks" onclick="openDoctor(event, '10')">
@@ -23,31 +45,53 @@
         <button class="tablinks" onclick="openDoctor(event, '11')">
           11th Doctor
         </button>
-        <button class="tablinks" onclick="openDoctor(event, '12')">
-          12th Doctor
-        </button>
       </div>
 
       <!-- Tab content -->
       <div id="9" class="tabcontent">
         <h3>9th Doctor</h3>
-        <img src="./assets/9thDoctor.jpg" alt="9th Doctor"/>
-        <p>Surviving the Last Great Time War, and believing he was the only survivior, the Ninth Doctor is living in grieving over the immense suffering he had witnessed and the destruction he had caused with his actions. Struggling with the fact that he is the last of the Time Lords</p>
-        <p>The Doctor is now alone and bereaved. Emotionally haunted by the war, he entered a darker period of his life spattered by resentment, where he tended to brood and act rudely to those who rubbed him the wrong way, and found a particular rage towards the Daleks, he believed to be desroyed whenever he encountered them. Despite this, he remained jovial and friendly towards anyone he took a liking to.</p>
+        <div class="details">
+          <img src="./assets/9thDoctor.jpg" alt="9th Doctor" />
+          <span
+            >"Before I go, I just want to tell you, you were fantastic.
+            Absolutely Fantastic. And you know what? So was I. "</span
+          >
+        </div>
+        <p>
+          Survivior of the Last Great Time War, and believing he was the only
+          one, the Ninth Doctor is living in grieving over the immense suffering
+          he had witnessed and the destruction he had caused with his actions.
+        </p>
+        <p>
+          Struggling with the fact that he is the last of the Time Lords, The
+          Doctor is now alone and bereaved. Emotionally haunted by the war, he
+          entered a darker period of his life spattered by resentment, where he
+          tended to brood and act rudely to those who rubbed him the wrong way,
+          and found a particular rage towards the <b>Daleks</b>, that he
+          believed to be desroyed whenever he encountered them. Despite this, he
+          remained jovial and friendly towards anyone he took a liking to.
+        </p>
+        <p>
+          Always hoping for the best in every one, but never failing in showing
+          his anger when they became a threat to innocent lives.
+        </p>
       </div>
 
       <div id="10" class="tabcontent">
         <h3>10th Doctor</h3>
-        <p>Paris is the capital of France.</p>
+        <div class="details">
+          <img src="./assets/10thDoctor.jpg" alt="10th Doctor" />
+          <span>"Well, no one knows how he will be remembered. All we can do is hope for the best."</span>
+        </div>
+        <p></p>
       </div>
 
       <div id="11" class="tabcontent">
         <h3>11th Doctor</h3>
-        <p>Tokyo is the capital of Japan.</p>
-      </div>
-
-      <div id="12" class="tabcontent">
-        <h3>12th Doctor</h3>
+        <div class="details">
+          <img src="./assets/11thDoctor.jpg" alt="11th Doctor" />
+          <span>Favorite Frase of Him</span>
+        </div>
         <p>Tokyo is the capital of Japan.</p>
       </div>
     </article>
