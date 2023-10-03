@@ -1,12 +1,17 @@
 body{
-    background-image: url(./assets/boot_bg.jpg);
+    background-image: url(../assets/boot_bg.jpg);
 }
 
 .content{
     background-color:rgb(255,255,255, 0.9); /*212 232 245*/
-    text-align: center;
+    text-align: justify;
     padding: 25px;
     margin: 70px;
+    font-size: 20px;
+}
+
+.content h1, h2{
+    text-align: center;
 }
 
 .doctor{

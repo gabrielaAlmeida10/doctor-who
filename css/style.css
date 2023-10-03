@@ -1,10 +1,10 @@
 body {
-  background-image: url(./assets/time_vortex.jpg); 
+  background-image: url(../assets/time_vortex.jpg); 
   background-size: cover;
 }
 
 div.menu {
-  background-color: #202aaf;
+  background-color: #202aaf96;
   overflow: auto;
   white-space: nowrap;
 }
@@ -26,4 +26,5 @@ div.menu a:hover {
   /* text-align: center; */
   padding: 25px;
   margin: 70px;
+  font-size: 20px;
 }
