@@ -19,18 +19,14 @@ body {
 .tablinks {
   margin: 10px;
   cursor: pointer;
+  border: none;
+  background: none;
+}
+.tablinks img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  overflow: hidden; /*makes sure that the image don't overtake the button limits*/
-  outline: none; 
-  border: none;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
-
-.tablinks img {
-  width: 100%;
-  height: auto;
+  padding: 0;
 
 }
 
